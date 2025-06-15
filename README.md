@@ -1,5 +1,3 @@
-# Intrusion Detection System - IDS
----
 ```markdown
 # 🚨 Signature-Based Intrusion Detection System (IDS) in C++
 
@@ -94,19 +92,19 @@ alert,tcp,any,0,any,0,HTTP GET,1002
 
 ## 🧪 Output Logs
 
-* `packets.log`: Raw hex dump of each captured packet.
-* `payloads.log`: TCP payloads (if any) extracted from each packet.
-* Future: Alert logs on rule matches (e.g., `[ALERT] SYN flood detected`).
+* `packets.log`: Raw hex dump of each captured packet
+* `payloads.log`: TCP payloads (if any) extracted from each packet
+* Future: Alert logs on rule matches (e.g., `[ALERT] SYN flood detected`)
 
 ---
 
 ## 🔍 How Detection Works (Architecture)
 
-* **Logger**: Logs all packets and payloads in hex.
-* **NetworkConnection**: Handles opening/closing devices and setting BPF filters.
-* **PacketAnalyzer**: Parses Ethernet, IP, and TCP headers. Extracts payload.
-* **SignatureDetection** *(in progress)*: Compares each packet to user-defined rules.
-* **Signal Handling**: Clean shutdown on `Ctrl+C`.
+* **Logger**: Logs all packets and payloads in hex
+* **NetworkConnection**: Handles opening/closing devices and setting BPF filters
+* **PacketAnalyzer**: Parses Ethernet, IP, and TCP headers. Extracts payload
+* **SignatureDetection** *(in progress)*: Compares each packet to user-defined rules
+* **Signal Handling**: Clean shutdown on `Ctrl+C`
 
 ---
 
@@ -120,14 +118,6 @@ alert,tcp,any,0,any,0,HTTP GET,1002
 
 ---
 
-## 👨‍💻 Developed by
-
-**Vivek Reddy**
-Cybersecurity Engineering Student
-*"Sky is our limit; change the boundaries."*
-
----
-
 ## 📝 License
 
 MIT License — Free for educational and non-commercial use.
@@ -136,11 +126,9 @@ MIT License — Free for educational and non-commercial use.
 
 ---
 
-### 🔧 Next Steps (if you want):
+✅ You can now:
+- Paste this as `README.md` on GitHub
+- Use GitHub preview to confirm the markdown formatting
 
-- Want me to **add this as a real file** in your project (`README.md`)?
-- Want to **complete integration** of the rule matching & alerts?
-- Need help setting this up on **GitHub or demo recording tips**?
-
-Just say the word bro — I’ve got your back 💯
+Want me to auto-generate a `.md` file and give you the **download link**, or push to a GitHub repo structure? Just say the word!
 ```
