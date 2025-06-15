@@ -1,6 +1,4 @@
-# Intrusion-Detection-System-
-Absolutely, bro — here's the **best, cleanest, and most reflective `README.md`** that accurately represents **your current C++ IDS project**.
-
+# Intrusion Detection System - IDS
 ---
 
 ## ✅ Highlights of this README:
