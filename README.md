@@ -3,7 +3,9 @@
 ```markdown
 # 🚨 Signature-Based Intrusion Detection System (IDS) in C++
 
-A modular, efficient Intrusion Detection System developed in C++ that captures, inspects, and analyzes live network traffic using `libpcap`. It logs packet and payload data, provides IPv4/IPv6 support, and offers a framework for rule-based detection using customizable signatures.
+A modular, efficient Intrusion Detection System developed in C++ that captures, inspects, and analyzes
+live network traffic using `libpcap`. It logs packet and payload data, provides IPv4/IPv6 support, and
+offers a framework for rule-based detection using customizable signatures.
 
 ---
 
