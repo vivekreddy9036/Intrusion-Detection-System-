@@ -117,18 +117,3 @@ alert,tcp,any,0,any,0,HTTP GET,1002
 * [ ] DDoS/anomaly-based detection engine
 
 ---
-
-## 📝 License
-
-MIT License — Free for educational and non-commercial use.
-
-```
-
----
-
-✅ You can now:
-- Paste this as `README.md` on GitHub
-- Use GitHub preview to confirm the markdown formatting
-
-Want me to auto-generate a `.md` file and give you the **download link**, or push to a GitHub repo structure? Just say the word!
-```
