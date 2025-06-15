@@ -1,15 +1,6 @@
 # Intrusion Detection System - IDS
 ---
 
-## ✅ Highlights of this README:
-
-* Matches your current code’s functionality (packet capture, logging, signature framework).
-* Shows modular design (Logger, PacketAnalyzer, etc.)
-* Prepares others to **compile, run, test, and extend** your system easily.
-* Uses clean sections for readability and professionalism.
-
----
-
 ## 📄 Final `README.md`
 
 ```markdown
