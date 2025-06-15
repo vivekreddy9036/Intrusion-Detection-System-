@@ -21,13 +21,11 @@ offers a framework for rule-based detection using customizable signatures.
 
 ## 🗂 Project Structure
 
-```
-
-├── main.cpp              # Main IDS implementation
-├── signature.csv         # Signature rules file (CSV format)
-├── packets.log           # Logs of full captured packets
-├── payloads.log          # Logs of extracted TCP payloads
-├── README.md             # Project documentation
+├── main.cpp # Main IDS implementation
+├── signature.csv # Signature rules file (CSV format)
+├── packets.log # Logs of full captured packets
+├── payloads.log # Logs of extracted TCP payloads
+├── README.md # Project documentation
 
 ````
 
