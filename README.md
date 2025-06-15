@@ -29,7 +29,6 @@ offers a framework for rule-based detection using customizable signatures.
 
 ````
 
----
 
 ## 🛠 Requirements
 
