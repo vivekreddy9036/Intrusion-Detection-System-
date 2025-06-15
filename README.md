@@ -1,8 +1,5 @@
 # Intrusion Detection System - IDS
 ---
-
-## 📄 Final `README.md`
-
 ```markdown
 # 🚨 Signature-Based Intrusion Detection System (IDS) in C++
 
